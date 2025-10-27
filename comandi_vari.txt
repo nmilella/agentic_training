@@ -1,0 +1,10 @@
+
+POWERSHELL
+
+##aggiunge il path local alla variabile d'ambiente PATH
+$env:Path = "C:\Users\A782UQ\.local\bin;$env:Path"
+
+## installa uv Package Manager . Gestore pacchetti e virtual env in python
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+
